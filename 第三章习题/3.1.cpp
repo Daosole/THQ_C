@@ -1,5 +1,4 @@
 #include<stdio.h>
-#include<stdlib.h>
 #include<math.h>
 
 int main()
@@ -9,7 +8,6 @@ int main()
 	p = pow(t,n);
 	printf("p=%f\n",p);
 	
-//	system("pause");
 	getchar();
 	return 0;
 }
