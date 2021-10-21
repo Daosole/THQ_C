@@ -9,7 +9,7 @@ int main()
 		t = t*i;
 		i = i+1;
 	}
-	printf("%d\n",t);
+	printf("5 µÄ½×³Ë = %d\n",t); //5 µÄ½×³Ë
 	system("pause");
 	
 	return 0;
