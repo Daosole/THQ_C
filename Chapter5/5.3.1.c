@@ -1,6 +1,6 @@
 //使用辗转相除法计算最大公因数
 #include<stdio.h>
-int main()
+int main(void)
 {
     int m,n,r,t,p;
     printf("输入两个正整数:");
