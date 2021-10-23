@@ -1,9 +1,9 @@
-#include<stdio.h>
+#include <stdio.h>
 int main(void)
 {
     double n = 2.0, d = 1.0, term, sum = 0, t;
     int i;
-    for(i = 1; i <= 20; i++)
+    for (i = 1; i <= 20; i++)
     {
         term = n / d;
         t = n;
@@ -13,8 +13,7 @@ int main(void)
     }
 
     // printf("%.10lf\n",sum);
-    printf("%lf\n",sum);
+    printf("%lf\n", sum);
 
     return 0;
-    
 }
