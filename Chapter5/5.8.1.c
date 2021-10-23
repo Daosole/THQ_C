@@ -10,7 +10,7 @@ int main(void)
         if (n == i*i*i + j*j*j + k*k*k)
             printf("%d\n",n);
     }
-
+    
     printf("\n");
     return 0;
 }

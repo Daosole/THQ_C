@@ -4,7 +4,6 @@
 int main(void)
 {
 	float x,x0,a;
-//	double n;
 	printf("Enter the a value:");
 	scanf("%f",&a);
 	x0 = a/2; //赋初值
@@ -15,7 +14,6 @@ int main(void)
 		x = (x0 + a/x0)/2;
 	} while(fabs(x-x0) > 1e-5);
 	
-//	printf("%f",fabs(i-j));
 	printf("%f",x);
 	
 	return 0;
