@@ -7,12 +7,12 @@ int main(void)
     	i = n;
 		while(i != 0)
     	{
-	    	a = i % 10;
+	    	a = i % 10; // 个位
 	    	i = i / 10;
-	    	b = i % 10;
+	    	b = i % 10; // 十位
 	    	i = i / 10;
-	    	c = i % 10;
-	    	i = i / 10;
+	    	c = i % 10; // 百位
+	    	i = i / 10; 
 		}
 		if(n == a*a*a + b*b*b + c*c*c)
 			printf("%d\n",n);
