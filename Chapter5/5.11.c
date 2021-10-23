@@ -1,5 +1,5 @@
 #include<stdio.h>
-int main()
+int main(void)
 {
     double sum = 100.0, h = sum / 2; // 第一次 100m 后面反弹 相当于经过两次
     int i;
