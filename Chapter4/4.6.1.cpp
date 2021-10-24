@@ -1,9 +1,9 @@
 #include <stdio.h>
 int main(void)
 {
-	int x, y;
+	float x, y;
 	printf("please enter x value:");
-	scanf("%d", &x);
+	scanf("%f", &x);
 	if (x < 1)
 		y = x;
 	if (x >= 1 && x < 10)
@@ -11,6 +11,6 @@ int main(void)
 	if (x >= 10)
 		y = 3 * x - 11;
 
-	printf("y=%d", y);
+	printf("y=%.2f", y);
 	return 0;
 }

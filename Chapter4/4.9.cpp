@@ -1,8 +1,8 @@
 #include <stdio.h>
 int main(void)
 {
-	int a[5], b, c, i;
-	printf("请输入一个多于 5 位的正整数:");
+	int b, c, i;
+	printf("请输入一个不多于 5 位的正整数:");
 	scanf("%d", &b);
 	while (b > 99999 || b < 0)
 	{
@@ -24,7 +24,7 @@ int main(void)
 	}
 
 	printf("这是个%d位数\n", i);
-
+	printf("顺序输出：\n");
 	switch (i)
 	{
 	case 5:
