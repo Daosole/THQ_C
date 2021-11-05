@@ -1,7 +1,7 @@
 #include<stdio.h>
 #include<math.h>
 
-int main()
+int main(void)
 {
 	float r = 0.09,n = 10,p,t;
 	t = 1 + r;
