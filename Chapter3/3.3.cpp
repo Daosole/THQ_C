@@ -1,14 +1,14 @@
-#include<stdio.h>
-#include<math.h>
-int main()
+#include <stdio.h>
+#include <math.h>
+int main(void)
 {
-	float m,d,p,r; //m »¹ÇåÔÂÊı d ´û¿î p Ã¿ÔÂ»¹¿î¶î r ÔÂÀûÂÊ
+	float m, d, p, r; //m è¿˜æ¸…æœˆæ•° d è´·æ¬¾ p æ¯æœˆè¿˜æ¬¾é¢ r æœˆåˆ©ç‡
 	d = 300000.0, p = 6000.0, r = 0.01;
-	float a,b; // ÖĞ¼ä±äÁ¿
-	a = log(p / (p - d*r) );
+	float a, b; // ä¸­é—´å˜é‡
+	a = log(p / (p - d * r));
 	b = log(1 + r);
 	m = a / b;
-	printf("m = %.1f\n",m);
-	
+	printf("m = %.1f\n", m);
+
 	return 0;
 }

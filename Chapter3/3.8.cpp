@@ -1,15 +1,15 @@
-#include<stdio.h>
+#include <stdio.h>
 
-int main()
+int main(void)
 {
-	char c1,c2;
-	int c3,c4; 
-	printf("ÇëÊäÈëÁ½¸öÕûÊı\n");
-	scanf("%d %d",&c3,&c4);
-	c1=c3;
-	c2=c4;
-	printf("Êä³ö×Ö·û½á¹û %c,%c\n",c1,c2);
-	printf("Êä³ö ASCII Âë %d,%d\n",c1,c2);
-	
+	char c1, c2;
+	int c3, c4;
+	printf("è¯·è¾“å…¥ä¸¤ä¸ªæ•´æ•°\n");
+	scanf("%d %d", &c3, &c4);
+	c1 = c3;
+	c2 = c4;
+	printf("è¾“å‡ºå­—ç¬¦ç»“æœ %c,%c\n", c1, c2);
+	printf("è¾“å‡º ASCII ç  %d,%d\n", c1, c2);
+
 	return 0;
 }
