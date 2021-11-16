@@ -4,7 +4,7 @@
 int main(void)
 {
     int a[N], i, j, max, t;
-    printf("请输入十个数：\n");
+    printf("请输入 %d 个数：\n", N);
     for (i = 0; i < N; i++)
     {
         printf("a[%d] = ", i);
