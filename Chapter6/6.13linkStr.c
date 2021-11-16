@@ -15,7 +15,8 @@ int main(void)
         i++;
         j++;
     }
-    printf("%s", s1);
+    // printf("%s", s1);
+    puts(s1);
 
     return 0;
 }
