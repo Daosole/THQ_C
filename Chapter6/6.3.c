@@ -22,17 +22,17 @@ int main(void)
 	}
 	
 	int sum1 = 0, sum2 = 0;
-	for (i = 0; i < 3; i++) // 计算主对角线的和
+	for (i = 0; i < 3; i++) 
 	{
 		for (j = 0; j < 3; j++)
 		{
 			if (i == j)
 			{
-				sum1 = sum1 + a[i][j];
+				sum1 = sum1 + a[i][j]; // 计算主对角线的和
 			}
             if ( i + j == 2)
             {
-                sum2 = sum2 + a[i][j];
+                sum2 = sum2 + a[i][j]; // 计算副对角线和
             }
             
 		}
