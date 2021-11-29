@@ -47,5 +47,4 @@ void convert(int a[N][N])
         }
         printf("\n");
     }
-
 }
