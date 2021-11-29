@@ -8,11 +8,11 @@ int main(void)
 	gets(s1);
 	printf("Please input string two:\n");
 	gets(s2);
-	
+
 	strLk(s1, s2);
 	printf("The linked string is:\n");
 	puts(s1);
-	
+
 	return 0;
 }
 
