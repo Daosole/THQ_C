@@ -15,6 +15,7 @@ int main(void)
 
 int compute(int y, int m, int d)
 {
+    int judge_leap(int x);
     int i, sum = 0, mn[12] = {31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31};
     if (m == 1)
         return d;
