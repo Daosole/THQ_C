@@ -4,7 +4,7 @@
 #define M 5                      //column 列
 float mark[N][M];                //全局数组
 float aver_stu[N], aver_cour[M]; // aver_stu 来存放每个学生的平均成绩 aver_cour 来存放每门课的平均成绩
-int r, c;                        // 最高分的行标 r， 列标
+int r, c;                        // 最高分的行标 r， c 列标
 int main(void)
 {
     int i, j;
@@ -114,7 +114,7 @@ float var(void)
     float var, sumx = 0.0, sumxn = 0.0;
     for (i = 0; i < N; i++)
     {
-        sumx = aver_stu[i] * aver_stu[i];
+        sumx = sumx + aver_stu[i] * aver_stu[i];
         sumxn = sumxn + aver_stu[i];
     }
     var = sumx / N - (sumxn / N) * (sumxn / N);
