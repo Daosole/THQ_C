@@ -30,7 +30,7 @@ void tranp(int *p)
     int i, j, temp;
     for (i = 0; i < 3; i++)
     {
-        for (j = i; j < 3; j++)
+        for (j = i; j < 3; j++) // j = i;
         {
             temp = *(p + i * 3 + j);
             *(p + i * 3 + j) = *(p + j * 3 + i);
