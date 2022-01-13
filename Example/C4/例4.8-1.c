@@ -1,5 +1,6 @@
+// 判断闰年
 #include<stdio.h>
-int main()
+int main(void)
 {
 	int year,leap;
 	printf("enter year:");
