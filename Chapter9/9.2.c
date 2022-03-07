@@ -12,7 +12,7 @@ int main(void)
     int days(struct Date * p);
     struct Date d, *pt;
     int result;
-    printf("请输入日期，格式yyyy.mm.dd\n");
+    printf("请输入日期 格式yyyy.mm.dd\n");
     scanf("%d.%d.%d", &d.year, &d.month, &d.day);
     pt = &d;
     result = days(pt);

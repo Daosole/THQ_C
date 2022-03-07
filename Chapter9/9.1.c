@@ -10,7 +10,7 @@ int main(void)
 {
     struct Date d;
     int i, count = 0, mn[12] = {31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31};
-    printf("请输入日期，格式yyyy.mm.dd\n");
+    printf("请输入日期 格式yyyy.mm.dd\n");
     scanf("%d.%d.%d", &d.year, &d.month, &d.day);
     if (d.month == 1)
         count = d.day;
