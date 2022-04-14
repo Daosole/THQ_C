@@ -1,4 +1,4 @@
-// 选择法排序
+// 冒泡
 #include <stdio.h>
 #define N 10
 int main(void)
