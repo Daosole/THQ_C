@@ -1,5 +1,4 @@
 // 选择法排序
-#include <stdio.h>
 #define N 10
 int main(void)
 {
