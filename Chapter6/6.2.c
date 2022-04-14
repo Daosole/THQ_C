@@ -3,7 +3,7 @@
 #define N 10
 int main(void)
 {
-    int a[N], i, j, max, t;
+    int a[N], i, j, k, t;
     printf("请输入 %d 个数：\n", N);
     for (i = 0; i < N; i++)
     {
@@ -13,14 +13,17 @@ int main(void)
 
     for (i = 0; i < N-1; i++) //排序从大到小
     {
-        max = i; //默认第一个为大值
+        k = i; 
         for (j = i + 1; j < N; j++)
         {
-            if (a[max] < a[j])
+            if (a[i] < a[j])
+                k = j;
+            
+            if (k != i)
             {
-                t = a[max];
-                a[max] = a[j];
-                a[j] = t;
+                t = a[j];
+                a[j] = a[i];
+                a[i] = t;
             }
         }
     }
