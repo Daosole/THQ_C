@@ -15,9 +15,9 @@ int main(void)
         printf("\n");
     }
 
-    for (i = 0; i <=2; i++)
+    for (i = 0; i <= 2; i++)
     {
-        for (j = 0; j <=i; j++)
+        for (j = 0; j <= i; j++)
         {
             printf(" ");
         }
